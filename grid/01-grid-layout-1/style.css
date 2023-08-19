@@ -31,14 +31,17 @@ body, html {
 
 .sidebar {
   background-color: #FF7755;
+  grid-area: 2 / 1 / 4 / 2;
 }
 
 .nav {
   background-color: #00DDFF;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .article {
   background-color: #bccbde;
+  grid-area: 3 / 2 / 3 / 3;
 }
 
 .article p {
@@ -50,4 +53,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-area: 4 / 1 / 5 / 3;
 }
