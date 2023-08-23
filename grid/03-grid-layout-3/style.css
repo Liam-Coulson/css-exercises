@@ -30,8 +30,10 @@
 }
 
 .sidebar {
+  display: grid;
   background-color: #FF7755;
   grid-area: 2 / 1 / 4 / 2;
+  grid-gap: 50px;
 }
 
 .sidebar .photo {
