@@ -32,6 +32,8 @@
 
 .header > .logo {
   text-align: left;
+  display: grid;
+  align-items: center;
 }
 
 .menu ul,
@@ -41,7 +43,13 @@
 
 .menu ul {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.menu {
+  display: grid;
+  align-items: center;
 }
 
 li {
@@ -77,6 +85,8 @@ li {
 
 .nav {
   background-color: #FF7755;
+  display: grid;
+  align-items: center;
   grid-area: 2 / 2 / 3 / 3;
 }
 
