@@ -3,11 +3,15 @@
   padding: 0;
 }
 
+:root {
+  --footer-height: 50px;
+}
+
 .container {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 2fr 1fr 8fr 1fr;
+  grid-template-rows: calc(2*var(--footer-height)) var(--footer-height) 8fr var(--footer-height);
   gap: 4px;
 }
 
