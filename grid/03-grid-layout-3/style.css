@@ -81,6 +81,11 @@ li {
   text-transform: uppercase;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .article {
   background-color: #bccbde;
   grid-area: 3 / 2 / 4 / 3;
